@@ -8,7 +8,7 @@ import android.view.ViewGroup
  */
 
 interface AdapterDelegate<T> {
-    fun isForViewType(items: T, position: Int): Boolean
+    fun isViewType(items: T, position: Int): Boolean
 
     fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): ViewHolder
 

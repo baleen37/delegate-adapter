@@ -15,7 +15,7 @@ import me.baleen.delegateadpater.AdapterDelegate
  */
 class TextDelegate(val context: Context) : AdapterDelegate<List<DisplayItem>> {
 
-    override fun isForViewType(items: List<DisplayItem>, position: Int): Boolean {
+    override fun isViewType(items: List<DisplayItem>, position: Int): Boolean {
         return items[position] is TextModel
     }
 

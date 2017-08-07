@@ -47,7 +47,7 @@ class DelegateAdapterManager<T> {
         val delegatesCount = delegates.size()
         for (i in 0..delegatesCount - 1) {
             val delegate = delegates.valueAt(i)
-            if (delegate.isForViewType(items, position)) {
+            if (delegate.isViewType(items, position)) {
                 return delegates.keyAt(i)
             }
         }
