@@ -12,6 +12,6 @@ allprojects {
 }
 ```
 
-'''
+```
 compile 'com.github.baleen37:delegate-adapter:<version>'
-'''
+```
